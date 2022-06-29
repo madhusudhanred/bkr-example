@@ -88,6 +88,7 @@ payload]]></ee:set-payload>
 					</ee:message>
 				</ee:transform>
 				<logger level="INFO" doc:name="Logger" doc:id="bd94e717-a290-4fa5-a31e-aa67a194e622" message="#[payload]"/>
+				<logger level="INFO" doc:name="Logger" doc:id="bd94e717-a290-4fa5-a31e-aa67a194e622" message="some one has changed"/>
 			</batch:on-complete>
 		</batch:job>
 	</flow>
